@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TLM Carpentry & Construction</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #111;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery img {
+            width: 90%;
+            max-width: 500px;
+            border-radius: 10px;
+            margin-top: 15px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            max-width: 400px;
+            margin: auto;
+        }
+        input, textarea {
+            padding: 10px;
+            margin: 10px 0;
+        }
+        button {
+            padding: 12px;
+            background: black;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        footer {
+            background: #111;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>TLM Carpentry & Construction</h1>
+    <p>Pretoria, Gauteng</p>
+    <p>Phone: 078 063 9654</p>
+    <p>Email: tumelo1maaga@gmail.com</p>
+</header>
+
+<section>
+    <h2>Our Services</h2>
+    <p>Kitchen Installations</p>
+    <p>Built-in Wardrobes</p>
+    <p>Roofing & Renovations</p>
+    <p>Custom Carpentry</p>
+</section>
+
+<section class="gallery">
+    <h2>Our Work</h2>
+    <img src="images/gallery.png" alt="Project Gallery">
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/xwvnrzeo" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    © 2026 TLM Carpentry & Construction | All Rights Reserved
+</footer>
+
+</body>
+</html>
